@@ -16,6 +16,7 @@ export const metadata: Metadata = {
     description: 'Real LoL champion builds, tier lists and counter picks from Challenger and Grandmaster match data.',
   },
   twitter: { card: 'summary', title: 'LoL Analyzer – Champion Builds & Tier List' },
+  other: { 'google-adsense-account': 'ca-pub-3982859405901791' },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
