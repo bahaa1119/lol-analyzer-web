@@ -16,7 +16,7 @@ import type {
   MatchSummaryDto,
 } from './types';
 
-const BASE = process.env.NEXT_PUBLIC_API_BASE_URL!;
+const BASE = process.env.NEXT_PUBLIC_API_BASE_URL ?? 'https://lol-analyzer-backend-production.up.railway.app';
 
 type RequestOptions = {
   params?: Record<string, string>;
