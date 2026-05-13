@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     description: 'Real LoL champion builds, tier lists and counter picks from Challenger and Grandmaster match data.',
   },
   twitter: { card: 'summary', title: 'LoL Analyzer – Champion Builds & Tier List' },
-  other: { 'google-adsense-account': 'ca-pub-3982859405901791' },
+  other: { 'google-adsense-account': 'ca-pub-4876417033951890' },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -25,7 +25,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head>
         <Script
           async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3982859405901791"
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4876417033951890"
           crossOrigin="anonymous"
           strategy="afterInteractive"
         />
