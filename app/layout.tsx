@@ -39,7 +39,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <AdBanner slot="2512934142" className="mt-8" />
           </main>
           <footer className="border-t border-[var(--border-1)] mt-12 py-6 text-center text-[var(--text-subtle)] text-xs">
-            LoL Analyzer is not endorsed by Riot Games. League of Legends is a trademark of Riot Games, Inc.
+            <p>LoL Analyzer is not endorsed by Riot Games. League of Legends is a trademark of Riot Games, Inc.</p>
+            <p className="mt-2">
+              <a href="/privacy-policy" className="hover:text-[#F3F4F6] transition-colors">Privacy Policy</a>
+            </p>
           </footer>
         </AuthProvider>
       </body>
