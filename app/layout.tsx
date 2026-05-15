@@ -40,8 +40,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           </main>
           <footer className="border-t border-[var(--border-1)] mt-12 py-6 text-center text-[var(--text-subtle)] text-xs">
             <p>LoL Analyzer is not endorsed by Riot Games. League of Legends is a trademark of Riot Games, Inc.</p>
-            <p className="mt-2">
+            <p className="mt-2 flex items-center justify-center gap-4">
               <a href="/privacy-policy" className="hover:text-[#F3F4F6] transition-colors">Privacy Policy</a>
+              <span>·</span>
+              <a href="/terms" className="hover:text-[#F3F4F6] transition-colors">Terms of Service</a>
             </p>
           </footer>
         </AuthProvider>
